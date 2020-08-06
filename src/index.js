@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function fetchToys(){
     const toy_image_url=(http:localhost:3000/toys);
       fetch(toy_image_url).then(response =>response.json()).then(result =>displayData(result));
-      
+
   }
   function displayData(data){
     const div =document.creatElement('div');
@@ -33,8 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const button =document.creatElement('button');
       button.addClass('like-btn');
     }
-  
-    
+
+
   }
 });
-
