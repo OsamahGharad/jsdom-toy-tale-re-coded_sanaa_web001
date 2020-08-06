@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   const toy-collection =document.querySelector('#toy-collection'#);
+  fetchToys();
 
   function fetchToys(){
     const toy_image_url=(http:localhost:3000/toys);
